@@ -2,7 +2,7 @@
 
 Docker File
 ===========
-* 나의 경우, Docker Network 통신에 관한 공부를 하려고 도커 공식 허브에서 Tomcat과 MySQL Image를 Pull 하였다. 그랬더니, 컨테이너가 깡통이었다.(도커 허브에서 받은 이미지를 통해 ping 테스트를 하려고 docker exec tomcat ping mysql를 수행시켰다. 근데, 컨테이너가 깡통이어서 ping 명령어 자체가 없었다. 즉, ping command not found ㅋㅋㅋㅋㅋ). Docker File 작성을 통해 해당 문제를 해결하는 김에 포스팅 시작.
+* 나의 경우, Docker Network 통신에 관한 공부를 하려고 도커 공식 허브에서 Tomcat과 MySQL Image를 Pull 하였다. 그랬더니, 컨테이너가 깡통이었다.(도커 허브에서 받은 이미지를 통해 ping 테스트를 하려고 docker exec tomcat ping mysql를 수행시켰다. 근데, 컨테이너가 깡통이어서 ping 명령어 자체가 없었다. 즉, ping command not found ㅋㅋㅋㅋㅋ). Docker File 작성을 통해 해당 문제를 해결하는 김에 포스팅 시작.(DockerFile에 RUN apt-get install -y inputils-ping 명령을 추가하면 가능)
 * 개요 : 도커 이미지는 단순히 공식 허브에서 받을 수도 있다. 
 하지만, 서버를 구축하여 애플리케이션을 배포하는 과정에서 필요한 패키지나 환경 설정 등을 반복해야하는 일이 생긴다면 번거로울 수 있다.
 이러한 번거로운 작업을 줄이기 위해 Docker File을 이용하여 도커에게 시킬 수 있다.</br>
