@@ -3,7 +3,7 @@
 Docker Network
 ==============
 * 개요 : 보통 Container는 격리된 환경이라고 한다. 
-  그렇다면, Network 통신은? -> Docker에서 제공하는 Network를 통해 Container간 통신이 가능하다.
+  그렇다면, Network 통신은? -> Docker에서 제공하는 Network를 통해 Container간 통신이 가능하다. Tomcat과 MySQL을 사용하여 통신 시키는 것이 목적.
 
 * \> docker network ls : Docker network list 확인</br>
   ![image](https://user-images.githubusercontent.com/70207093/181404415-fcb20830-7975-460b-9be6-d552e043fb65.png)
