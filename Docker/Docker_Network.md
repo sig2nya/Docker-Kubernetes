@@ -17,3 +17,7 @@ Docker Network 종류
 Tomcat DockerFile
 =================
 ![image](https://user-images.githubusercontent.com/70207093/181422394-248d6c4d-bbcd-4242-9f37-b9dc4b0f1cad.png)
+
+> docker build -t ./ 명령어 수행 후 다음과 같이 tomcat이 구동된 것을 확인
+> ![image](https://user-images.githubusercontent.com/70207093/181422815-a658703b-1b89-4cdd-a099-40d3204a966d.png)
+ 
