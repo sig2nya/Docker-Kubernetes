@@ -13,3 +13,7 @@ Docker Network 종류
 * bridge : 호스트 컴퓨터 내에서 여러 컨테이너(게스트)들이 서로 통신
 * host : 컨테이너를 호스트와 동일한 네트워크에 연결
 * overlay : 여러 호스트에 분산된 컨테이너들이 서로 통신
+
+Tomcat DockerFile
+=================
+![image](https://user-images.githubusercontent.com/70207093/181422394-248d6c4d-bbcd-4242-9f37-b9dc4b0f1cad.png)
