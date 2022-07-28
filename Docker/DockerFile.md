@@ -7,6 +7,7 @@ Docker File
 이러한 번거로운 작업을 줄이기 위해 Docker File을 이용하여 도커에게 시킬 수 있다.
 <b>즉, Docker File 작성을 통하여 컨테이너에 필요한 패키지 / 소스 / 명령어 / 환경변수 설정 등을 시킬 수 있다.</b> 
 따라서, 애플리케이션 빌드 및 배포와 환경구축을 자동화 할 수 있으며 이를 통해 컨테이너 오케스트레이션(Kubernetes 등)까지 가능할 것으로 생각된다.
+* 요약 : DockerFile을 잘 작성하면 Container Orchestration이 가능할 것이다.
 
 Docker File 작성
 ================
