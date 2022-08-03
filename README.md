@@ -4,8 +4,8 @@
 
 Docker-Kubernetes
 =================
-* 개요 : WSL2를 이용한 Docker 환경 구축(Window10) 및 Container Orchestration
-* * 준비물 : Ubuntu WSL / PowerShell
+* 개요 : WSL2를 이용한 Docker 환경 구축(Window10)과 Kubernetes를 통한 Container Orchestration
+* * 준비물 : Ubuntu WSL / PowerShell / Docker / Kubernetes
 * * 윈도우 위에서 Docker 구축이 정말 어렵다.
 
 * Kubernetes Reference : https://kubernetes.io/ko/docs/concepts/overview/what-is-kubernetes/
