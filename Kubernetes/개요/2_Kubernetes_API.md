@@ -10,3 +10,7 @@ OpenAPI 명세
 <table>
   <thead>
     <tr><th>헤더</th><th style=min-width:50%>사용할 수 있는 값</th><th>참고</th></tr></thead><tbody><tr><td><code>Accept-Encoding</code></td><td><code>gzip</code></td><td><em>이 헤더를 제공하지 않는 것도 가능</em></td></tr><tr><td rowspan=5><code>Accept</code></td><td><code>application/com.github.proto-openapi.spec.v2@v1.0+protobuf</code></td><td><em>주로 클러스터 내부 용도로 사용</em></td></tr><tr><td><code>application/json</code></td><td><em>기본값</em></td></tr><tr><td><code>*</code></td><td><code>JSON으로 응답</em></td></tr></tbody></table>
+
+API 그룹과 버전 규칙
+====================
+* 개요 : 필드를 쉽게 제거하거나 리소스 표현을 재구성하기 위해, 쿠버네티스는 각각 /api/v1 또는 /apis/rbac.authorization.k8s.io/v1alpha1 과 같은 서로 다른 API 경로에서 여러 API를 지원
