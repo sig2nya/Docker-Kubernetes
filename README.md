@@ -2,18 +2,13 @@
 * * https://gamechangers.tistory.com/103
 * * https://louky0714.tistory.com/131
 
-쿠버네티스, v1.20부터 도커 지원 중단
-==================================
-![image](https://user-images.githubusercontent.com/70207093/183237085-c517f5e1-dc1d-4af4-8cca-820cbe642498.png)
-* minikube start를 하면 위의 화면에서 더이상 진행되는 것이 없다... 방법을 찾읍시다.
-
 Docker-Kubernetes
 =================
 * 개요 : WSL2를 이용한 Docker 환경 구축(Window10)과 Kubernetes를 통한 Container Orchestration
 * * 준비물 : Ubuntu WSL / PowerShell / Docker / Kubernetes
 * * 윈도우 위에서 Docker 구축이 정말 어렵다.
 
-* Kubernetes Reference : https://kubernetes.io/ko/docs/concepts/overview/what-is-kubernetes/
+* Kubernetes Reference : https://kubernetes.io/ko/
 
 Kubernetes의 개요
 ================
