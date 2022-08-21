@@ -54,7 +54,7 @@ CMD apachectl -DFOREGOUND
 * 3) 도커파일 작성 : \> vi Dockerfile</br>
   ![image](https://user-images.githubusercontent.com/70207093/181397573-2aa22435-3b26-4df6-996e-66108c9ad19d.png)
   
-* 4) 도커파일 빌드 : \> docker build -t <생성할 이미지명>:<태그명> <dockerfild이 위치>
+* 4) 도커파일 빌드 : \> docker build -t <생성할 이미지명>:<태그명> <dockerfild이 위치> (빌드시에 DockerFile이 위치한 디렉토리에서 수행)
   ![image](https://user-images.githubusercontent.com/70207093/181397951-32434487-a6cf-4b15-928d-4cc7c9bac6af.png)
 * * 위 사진을 확인해보면, Dockerfile에서 작성한 명령어가 잘 실행되는 것을 확인 가능.
 
